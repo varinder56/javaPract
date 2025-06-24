@@ -31,7 +31,7 @@ public class BitOp {
 
         int BitMask = 1<<posi;
         int result = num | BitMask;
-        System.out.println("Number after setting bit at position " + posi +" to number "+ num+ " is " + result);
+        System.out.println("Number after setting bit at position " + posi +" to number "+ num+"("+Integer.toBinaryString(num)+ ") is " + result+"("+Integer.toBinaryString(result)+")");
         
 
         //clear bit
@@ -55,23 +55,40 @@ public class BitOp {
         int position = bc.nextInt();
         System.out.println("Enter Bit Value To update :");
         int value = bc.nextInt();
-        bc.close();
+        
         int bitMas = 1<<position;
-        int notbitM = ~(bitMas);
+        
         int newnumber =0;
         if (value==1) 
         {
-            newnumber = bitMas|n;
+            newnumber = bitMas|number;
+            System.out.println("Number after updating bit at position " + position +" of number "+number+"("+Integer.toBinaryString(number)+") is : "+newnumber+"("+Integer.toBinaryString(newnumber)+")");
+        
         }
         else if (value==0)
         {
+            int notbitM = ~(bitMas);
             newnumber = numb & notbitM;
+            System.out.println("Number after updating bit at position " + position +" of number "+number+"("+Integer.toBinaryString(number)+") is : "+newnumber+"("+Integer.toBinaryString(newnumber)+")");
+        
         }
         else
         {
             System.out.println("Invalid Value");
         }
-        System.out.println("Number after updating bit at position " + position +" to number "+ number+" is :"+newnumber);
 
+
+        //toggle bit with XOR
+        System.out.println("//toggle bit with XOR");
+        System.out.print("Enter a number To toggle Bit :");
+        int numbs = bc.nextInt();
+        System.out.println("Enter Bit Position To toggle :");
+        int posits = bc.nextInt();
+        bc.close();
+        int bitMasks= 1<<posits;
+        
+        int newnums = numbs ^ bitMasks;
+        System.out.println("Number after toggling bit at position " + posits +" of number "+numbs+"("+Integer.toBinaryString(numbs)+") is : "+newnums+"("+Integer.toBinaryString(newnums)+")");
+        
     }
 }

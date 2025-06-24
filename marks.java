@@ -9,7 +9,6 @@ public class marks {
         {
             System.out.println("Enter marks of student " + (i+1) + ":");
             x = sc.nextInt();
-        
             marks[i] = x; 
         }
         
