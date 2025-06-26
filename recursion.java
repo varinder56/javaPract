@@ -7,10 +7,8 @@ public class recursion {
     {
         return 1;
     }
-    else
-    {
         return x*fact(x-1);
-    }
+    
     }
     public static void main(String[] args)
     {

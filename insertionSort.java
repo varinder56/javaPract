@@ -1,8 +1,8 @@
 public class insertionSort {
      public static void main(String args[]) {
-       int arr[] = {7, 8, 1, 3, 2};
+       int arr[] = {6,5,4,3,2,1};
 
-
+      int lc=0;
        //insertion sort
        for(int i=1; i<arr.length; i++)
         {
@@ -13,6 +13,7 @@ public class insertionSort {
                    //Keep swapping
                    arr[j+1] = arr[j];
                    j--;
+                   lc++;
                }
             arr[j+1] = current;
        }
@@ -20,7 +21,7 @@ public class insertionSort {
        {
         System.out.print(arr[i] + " ");
        } 
-      // System.out.println("\n"+lc+" loops\"");    
+       System.out.println("\n"+lc+" loops\"");    
    }
 
 }
