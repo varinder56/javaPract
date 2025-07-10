@@ -20,7 +20,7 @@ public class sumRec {           //71
             return sum +=i;
         }
 
-        sum=sum+sumRange(i+1,n);
+        sum=sumRange(i+1,n);
         return sum +=i;
     }
 }

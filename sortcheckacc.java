@@ -31,7 +31,7 @@ public class sortcheckacc {
         } else if (isDescending) {
             System.out.println("The array is sorted in descending order");
         } else {
-            System.out.println("The array is not sorted");
+            System.out.println("The array is  not sorted");
         }
     }
 }
