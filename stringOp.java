@@ -44,11 +44,12 @@ System.out.println("//Compare 2 strings using  .compareTo : ");
        }
 
 //Substring
+System.out.println("//Substring : ");
 System.out.println(fullName.substring(0, 4));
-System.out.println(fullName.substring(0, 8));
+System.out.println(fullName.substring(1, 8));
 System.out.println(fullName.substring(0, 14));
 System.out.println(fullName.substring(9, 14));
-System.out.println(fullName.substring(9,fullName.length()));
+System.out.println(fullName.substring(10,fullName.length()));
 System.out.println(fullName.substring(9));
 
 //ParseInt Method of Integer class

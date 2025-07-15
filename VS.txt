@@ -1,0 +1,17 @@
+Shortcuts keys-> 
+1. File structure-> ctrl+b
+2. ctrl + plus -> Zoom in 
+3. Ctrl+ minus -> zoom out
+4. ctrl+j ->  window -> ctrl + Shift + M -> problems
+                     ->  ctrl + ` -> terminal
+5. Ctrl + \ ->spilt 
+6. Ctlr+ f4 -> Close
+7. Ctrl+ n -> new 
+9.F5 -> Debugging start
+10. Shift+f5-> Debugging close 
+11. Run -> Ctrl+alt+N 
+12. Alt + up/down arrow -> To move the line
+13. Ctrl+ F-> Find
+14. Ctrl+ H -> Replace 
+
+15. ctrl + alt ---> multitasking
