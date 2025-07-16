@@ -9,6 +9,7 @@ public class sumRec {           //71
         int b = sc.nextInt();
             sc.close();
         int s=sumRange(a,b);
+        
         System.out.println("Sum of numbers from "+a+" to "+b+" is "+s);
     }
 
